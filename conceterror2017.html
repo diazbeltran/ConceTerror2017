@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Teragon</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/styles.css" />
+
+<link rel="icon" type="image/jpg" href="images/calavera.jpg" />
+
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<!-- JS -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/countdown.js"></script>
+<script>
+	
+		$(document).ready(function(){
+			$("#countdown").countdown({
+				date: "17 February 2017 12:00:00",
+				format: "on"
+			},
+			
+			function() {
+				// callback function
+			});
+		});
+	
+	</script>
+
+<script>
+	
+	function inscripciones() {
+    alert("Hello world!");
+}
+
+</script>
+
+<style type="text/css">
+	
+	.fondo {
+		
+		background: url('../inscripcionct2017.jpg') center center no-repeat fixed;  color: white;
+}
+
+</style>
+
+
+</head>	     
+<body class  ="fondo">
+
+<div class="container">
+
+	<div class="row">
+  <div class="span4">
+  	como estamos		
+  </div>
+  <div class="span8">
+  	Bien bien
+  </div>
+  
+  <div class="hidden-phone">
+
+  Celu NO
+
+
+</div>
+</div>  
+
+
+</div>
+
+</body>
+</html>
